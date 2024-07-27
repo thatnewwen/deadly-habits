@@ -1,0 +1,759 @@
+body {
+  background-color: black;
+  /*display: flex;*/
+  margin: 0px;
+}
+
+footer{
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: black;
+}
+
+.footer-title{
+  font-family: 'Dosis';
+  color: white;
+  text-transform: uppercase;
+}
+
+.explainer{
+  color: white;
+  font-family: 'Dosis';
+  font-size: 12px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  /*height: 100vh;*/
+  overflow: hidden;
+  margin: 50px 0;
+}
+
+
+.highstakes{
+  margin: 100px 0;
+}
+
+.highstakes img{
+  width: 475px;
+  clear: both;
+}
+
+.highstakes span{
+  display: block;
+  text-align: center;
+}
+
+.home-container{
+  background-image: url('img/gradient1.png');
+  background-position: center center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.first-song-container{
+  background-image: url('img/song-background/Track1UnderSeriousMoonlight.jpg');
+  background-position: center center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.second-song-container{
+  background-image: url('img/song-background/Track2Smooth.jpg');
+  background-position: center center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.third-song-container{
+  background-image: url('img/song-background/Track3Voodoo.jpg');
+  background-position: center center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fourth-song-container{
+  background-image: url('img/song-background/Track4MoonBlue.jpg');
+  background-position: center center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fifth-song-container{
+  background-image: url('img/song-background/Track5Shadow.jpg');
+  background-position: center center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.sixth-song-container{
+  background-image: url('img/song-background/Track6Faded.jpg');
+  background-position: center center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.seventh-song-container{
+  background-image: url('img/song-background/Track7LongKiss.jpg');
+  background-position: center center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.eighth-song-container{
+  background-image: url('img/song-background/Track8bending.jpg');
+  background-position: center center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ninth-song-container{
+  background-image: url('img/song-background/Track9LowerWackerr.jpg');
+  background-position: center center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.tenth-song-container{
+  background-image: url('img/song-background/Track10Jigsaw.jpg');
+  background-position: center center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.eleventh-song-container{
+  background-image: url('img/song-background/Track11NorthStar.jpg');
+  background-position: center center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.twelfth-song-container{
+  background-image: url('img/song-background/Track12MagicHour.jpg');
+  background-position: center center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.song-description{
+  color: white;
+  padding: 5px;
+  text-align: right;
+  background: rgba(0, 0, 0, 0.36);
+}
+
+.song-description a{
+  font-family: 'Dosis';
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.song-description a:hover{
+  opacity: 0.6;
+  transition: opacity 0.5s ease;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.image-container{
+  object-fit: cover;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  opacity: 1.0;
+  transition: opacity 0.5s ease;
+}
+
+.image-container:hover {
+  opacity: 0.2;
+}
+
+.header-logo{
+  width: 200px;
+  left: 20px;
+  top: 20px;
+  position: absolute;
+}
+
+.header-logo:hover{
+  opacity: 0.6;
+  transition: opacity 0.5s ease;
+}
+
+.mainrow{
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.albumart {
+  width: 240px;
+  height: 240px;
+}
+
+.songgif {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('img/loader.gif') 50% 50% no-repeat black;
+}
+
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(51, 51, 51, 0.24);
+  font-family: 'Dosis';
+  text-transform: uppercase;
+}
+
+/* Float the list items side by side */
+ul.topnav li {display: inline;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: rgba(51, 51, 51, 0.54);}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: absolute;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav{
+    text-align: left;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(8, 8, 8, 0.9);
+  z-index: 10000;
+}
+
+/* Overlay closing cross */
+.overlay .overlay-close {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  overflow: hidden;
+  border: none;
+  background: url(img/letter-x.svg) no-repeat center center;
+  text-indent: 200%;
+  color: white;
+  outline: none;
+  z-index: 100;
+  background-size: cover;
+  cursor: hand;
+}
+
+/* Menu style */
+.overlay nav {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  height: 60%;
+  font-size: 54px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.overlay ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  height: 100%;
+  position: relative;
+}
+
+.overlay ul li {
+  display: block;
+  /*height: 20%;
+  height: calc(100% / 5);*/
+  min-height: 54px;
+}
+
+.overlay ul li a {
+  font-size: 50px;
+  font-family: 'Dosis';
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  letter-spacing: 2px;
+}
+
+.overlay ul li a:hover,
+.overlay ul li a:focus {
+  color: 'lightgrey';
+}
+
+/* Effects */
+.overlay-hugeinc {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+  transition: opacity 0.5s, visibility 0s 0.5s;
+}
+
+.overlay-hugeinc.open {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+.overlay-hugeinc nav {
+  -webkit-perspective: 1200px;
+  perspective: 1200px;
+}
+
+.overlay-hugeinc nav ul {
+  opacity: 0.4;
+  -webkit-transform: translateY(-25%) rotateX(35deg);
+  transform: translateY(-25%) rotateX(35deg);
+  -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.overlay-hugeinc.open nav ul {
+  opacity: 1;
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+
+.overlay-hugeinc.close nav ul {
+  -webkit-transform: translateY(25%) rotateX(-35deg);
+  transform: translateY(25%) rotateX(-35deg);
+}
+
+#trigger-overlay {
+  cursor: hand;
+  color: white;
+  font-family: 'Dosis';
+  text-transform: uppercase;
+}
+
+.menu-div{
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  right: 30px;
+}
+
+.social-media-icon{
+  width: 20px;
+  margin: 0 8px;
+}
+
+.social-media-icon:hover{
+  opacity: 0.6;
+  transition: opacity 0.5s ease;
+}
+
+.footer-logo{
+  width: 100px;
+}
+
+.firstsong {
+  background: url(img/1stsongfinalSMALLLOGO.gif) no-repeat center;
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  margin: 0px;
+  transform: scale(1.5);
+}
+
+.secondsong{
+  background: url(img/neonCARLOGO_SMALL.gif) no-repeat center;
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  margin: 0px;
+  transform: scale(1.5);
+}
+.thirdsong{
+  background: url(img/voodoo-SMALLLOGO.gif) no-repeat center;
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  margin: 0px;
+  transform: scale(1.5);
+}
+.fourthsong{
+  background: url(img/Moonlight_LOGOSMALL.gif) no-repeat center;
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  margin: 0px;
+  transform: scale(1.5);
+}
+.fifthsong{
+  background: url(img/Image1SMALLLOGO.gif) no-repeat center;
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  margin: 0px;
+  transform: scale(1.5);
+}
+.sixthsong{
+  background: url(img/IMG_1863_SMALLLOGO.gif) no-repeat center;
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  margin: 0px;
+  transform: scale(1.5);
+}
+.seventhsong{
+  background: url(img/image9SMALLLOGO.gif) no-repeat center;
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  margin: 0px;
+  transform: scale(1.5);
+}
+.eighthsong{
+  background: url(img/SilverPony_FINAL-SMALLOGO.gif) no-repeat center;
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  margin: 0px;
+  transform: scale(1.5);
+}
+.ninthsong{
+  background: url(img/lowerwacker-SMALLLOGO.gif) no-repeat center;
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  margin: 0px;
+  transform: scale(1.5);
+}
+.tenthsong{
+  background: url(img/image10-SMALLLOGO.gif) no-repeat center;
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  margin: 0px;
+  transform: scale(1.5);
+}
+.eleventhsong{
+  background: url(img/northstarSMALLLOGO.gif) no-repeat center;
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  margin: 0px;
+  transform: scale(1.5);
+}
+.twelfthsong{
+  background: url(img/LongGoodbyeFINAL-SMALLLOGO.gif) no-repeat center;
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  margin: 0px;
+  transform: scale(1.5);
+}
+
+.streaming-links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+}
+
+.streaming-links img{
+  /*width: 30px;*/
+  height: 30px;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+
+.streaming-links img:hover{
+  opacity: 0.6;
+  transition: opacity 0.5s ease;
+}
+
+.streaming-links a:first-child img:hover{
+  opacity: 1.0;
+}
+
+.press-container{
+  display: flex;
+}
+
+.press-title{
+  color: white;
+  font-family: 'Dosis';
+}
+
+.press:hover{
+  opacity: 0.6;
+  transition: opacity 0.5s ease;
+}
+
+.events-name{
+  font-family: 'Dosis';
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  left: -58px;
+  top: 2px;
+}
+
+.press-name{
+  font-family: 'Dosis';
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  left: -49px;
+  top: 38px;
+}
+
+.event-img{
+  width: 700px;
+}
+
+.press-image1{
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  display: block;
+  background: url('img/di.png') no-repeat;
+  background-size: contain;
+  animation: background 1s ease;
+}
+
+.press-image1:hover{
+  background: url('img/1stsongfinalSMALLLOGO.gif')
+}
+
+.press-image2{
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  display: block;
+  background: url('img/lisefm.jpg') no-repeat;
+  background-size: contain;
+}
+
+.press-image2:hover{
+  background: url('img/Image1SMALLLOGO.gif');
+  background-size: contain;
+}
+
+@media screen and (max-height: 30.5em) {
+  .overlay nav {
+    height: 70%;
+    font-size: 34px;
+  }
+  .overlay ul li {
+    min-height: 34px;
+  }
+}
+
+.gradient1{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 100vh;
+  width: 100vw;
+  background: url('img/gradient1.png') no-repeat center center fixed;
+  z-index: -9;
+ background-position: center center;
+ -webkit-background-size: 100%;
+   -moz-background-size: 100%;
+   -o-background-size: 100%;
+   background-size: 100%; 
+   animation-name: fade;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-duration: 5s;
+   animation-direction: alternate;
+}
+
+.gradient2{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 100vh;
+  width: 100vw;
+  background: url('img/gradient2.png') no-repeat center center fixed;
+  z-index: -10;
+ background-position: center center;
+ -webkit-background-size: 100%;
+   -moz-background-size: 100%;
+   -o-background-size: 100%;
+   background-size: 100%;
+}
+
+  @keyframes fade {
+  0% {
+    opacity:1;
+  }
+  25% {
+  opacity:0.75;
+  }
+  50% {
+  opacity:0.50;
+  }
+
+  75%{
+    opacity: 0.25;
+  }
+  100% {
+  opacity:0;
+  }
+}
+
+@media (max-width: 500px) {
+  .press-image1, .press-image2 {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+  }
+
+  .highstakes img{
+    width: 235px;
+  }
+
+  .video-container{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+  }
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .albumart{
+      width: 120px;
+      height: 120px;
+  }
+
+  .image-container{
+    height: 60px;
+    width: 60px;
+  }
+
+  .songgif {
+    height: 60px;
+    width: 60px;
+  }
+
+  .gradient1, .gradient2{
+    background-size: cover;
+  }
+}
